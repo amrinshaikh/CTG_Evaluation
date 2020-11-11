@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-11T17:50:14 CET" name="FREE CRM Application Test Automation Test Suite" finished-at="2020-11-11T17:50:27 CET" duration-ms="12645">
+    <groups>
+    </groups>
+    <test started-at="2020-11-11T17:50:14 CET" name="Free CRM App Test Cases" finished-at="2020-11-11T17:50:27 CET" duration-ms="12645">
+      <class name="TestCases.ContactsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.ContactsTest@1b84f475]" started-at="2020-11-11T17:50:22 CET" name="setUp" finished-at="2020-11-11T17:50:22 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnAddNewContacts()[pri:1, instance:TestCases.ContactsTest@1b84f475]" started-at="2020-11-11T17:50:22 CET" name="clickOnAddNewContacts" finished-at="2020-11-11T17:50:23 CET" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAddNewContacts -->
+      </class> <!-- TestCases.ContactsTest -->
+      <class name="TestCases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.HomePageTest@6bffbc6d]" started-at="2020-11-11T17:50:20 CET" name="setUp" finished-at="2020-11-11T17:50:20 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:TestCases.HomePageTest@6bffbc6d]" started-at="2020-11-11T17:50:20 CET" name="verifyHomePageTitleTest" finished-at="2020-11-11T17:50:20 CET" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Home page Url not matched expected [https://ui.freecrm.com/home] but found [https://ui.freecrm.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Home page Url not matched expected [https://ui.freecrm.com/home] but found [https://ui.freecrm.com/]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at TestCases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method signature="verifyContactsLinkTest()[pri:2, instance:TestCases.HomePageTest@6bffbc6d]" started-at="2020-11-11T17:50:20 CET" name="verifyContactsLinkTest" finished-at="2020-11-11T17:50:22 CET" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+      </class> <!-- TestCases.HomePageTest -->
+      <class name="TestCases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.LoginPageTest@53f6fd09]" started-at="2020-11-11T17:50:14 CET" name="setUp" finished-at="2020-11-11T17:50:17 CET" duration-ms="3342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:TestCases.LoginPageTest@53f6fd09]" started-at="2020-11-11T17:50:17 CET" name="loginPageTitleTest" finished-at="2020-11-11T17:50:17 CET" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="clickOnLoginbtn()[pri:2, instance:TestCases.LoginPageTest@53f6fd09]" started-at="2020-11-11T17:50:17 CET" name="clickOnLoginbtn" finished-at="2020-11-11T17:50:20 CET" duration-ms="2624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLoginbtn -->
+        <test-method signature="loginTest()[pri:3, instance:TestCases.LoginPageTest@53f6fd09]" started-at="2020-11-11T17:50:20 CET" name="loginTest" finished-at="2020-11-11T17:50:20 CET" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- TestCases.LoginPageTest -->
+      <class name="TestCases.NewContactTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.NewContactTest@7749bf93]" started-at="2020-11-11T17:50:24 CET" name="setUp" finished-at="2020-11-11T17:50:24 CET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.NewContactTest@7749bf93]" started-at="2020-11-11T17:50:24 CET" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2020-11-11T17:50:27 CET" duration-ms="3097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Haris]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Van]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[acd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Contact]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Test Description]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Gustaaf Callierlaan]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Gent]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Oost-vlanderen]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[9000.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Belgium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+      </class> <!-- TestCases.NewContactTest -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+</testng-results>
